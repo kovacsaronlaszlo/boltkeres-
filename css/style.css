@@ -1,0 +1,19 @@
+#googleMap {
+  height: 100%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#controlPanel {
+  color: #fff;
+  font-family: Arial;
+  top: 0;
+  right: 0;
+  padding: 40px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <title>Útvonal tervezése útinfóval</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGMZwyj_B2jonjbVsCMJB4GJrYY4-uZw0&sensor=false"></script>
+  <script src="js/api.js"></script>
+
+</head>
+<body>
+<div id="googleMap"></div>
+<div id="controlPanel">
+  <input type="search" id="address" name="address" placeholder="Cím megadása">
+  <button id="myPosition">Hol vagyok</button>
+  <br>
+  <input type="range" min="1" max="10" value="1" id="radius" name="radius">km távolságra
+  <br>
+  <input type="range" min="1" max="25" value="1" id="limit" name="limit">darab találat
+</div>
+</body>
+</html>
